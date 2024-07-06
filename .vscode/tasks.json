@@ -10,7 +10,7 @@
             "args": [
                 "src/main.asm",
                 "-sym2",
-                "bin/p3rdg.sym"
+                "bin/p3rd-qol.sym"
             ],
             "group": {
                 "kind": "build",

@@ -1,0 +1,2 @@
+_C0 Fast Item Pickup
+_L 0x200EFF3C 0x34030000
