@@ -1,9 +1,7 @@
 .openfile "../base_files/0100.mwo", "../bin/0100.mwo", 0x9C57C80
 .area 1525760
 
-    .org        0x09D84738
-    .region 0x4c8
-    .endregion
+    ; 0x09D84738
 
     ; all locations on fast travel menu
     .org        0x09C841C0
@@ -16,7 +14,7 @@
 
 
     ; blacksmith in guild hall
-.autoregion
+    .org        0x09D84794
 @bsmith_gh:
     sw          v0, 0x0(s1)
     lbu         v1, 0x3a0(s0)
@@ -29,7 +27,6 @@
     sb          v1, 0x3a0(s0)
 @@ret:
     j           @bsmith_ra
-.endautoregion
 
     ; hook
     .org        0x09CCF79C

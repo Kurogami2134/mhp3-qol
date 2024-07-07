@@ -12,6 +12,7 @@ Some quality of life mods for Monster Hunter Portable 3rd (ULJM-05800) for the S
 
 ## To-dos
 - [x] Faster item pickup
+- [ ] Hold to pick
 
 ## Building
 
