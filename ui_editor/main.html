@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>MHP3rd UI Editor</h1>
+    
+    <label>Bar Scale</label>
+    <input id="bar_scale" type="range" min="0.01" max="1" step="0.01" value="1" oninput="preview()">
+    <label>Map Scale</label>
+    <input id="map_scale" type="range" min="0.01" max="1" step="0.01" value="1" oninput="preview()">
+    <label>Map X</label>
+    <input id="map_x" type="range" min="0" max="480" step="1" value="318" oninput="preview()">
+    <label>Map Y</label>
+    <input id="map_y" type="range" min="0" max="272" step="1" value="22" oninput="preview()">
+
+    <button onclick="download();">Download</button>
+    
+    <canvas width=480p height=270p id="game_screen" class="game_screen"></canvas>
+</body>
+</html>

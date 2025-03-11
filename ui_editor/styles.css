@@ -1,0 +1,22 @@
+:root {
+    text-align: center;
+}
+
+.game_screen {
+    background-image: URL("base.jpg");
+    background-size: cover;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+input {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

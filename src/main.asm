@@ -4,4 +4,5 @@
 
 .include        "eboot.asm"
 .include        "lobby_task.asm"
+.include        "game_task.asm"
 .include        "result_task.asm"
