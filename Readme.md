@@ -32,3 +32,7 @@ The following files need to be in `base_files` to build. Indexes are based on [m
 ## Cheats
 
 The `cheats.txt` file contains cheat that enable some of the features included in the mod.
+
+## UI Editor Page
+
+A page to create a patch to resize HP bars and move and resize map can be found [here](https://kurogami2134.github.io/mhp3-qol/).
